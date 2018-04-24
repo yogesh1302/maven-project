@@ -22,7 +22,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
     <flow name="retrieveFlights">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/flights" allowedMethods="GET" doc:name="HTTP"/>
         <db:select config-ref="Derby_Connector" doc:name="Database">
-            <db:dynamic-query><![CDATA[SELECT * FROM FLIGHTS;]]></db:dynamic-query>
+            <db:dynamic-query><![CDATA[SELECT * FROM FLIGHTS]]></db:dynamic-query>
         </db:select>
         <object-to-string-transformer doc:name="Object to String"/>
         <jms:outbound-endpoint queue="flights" connector-ref="Active_MQ" doc:name="JMS"/>
