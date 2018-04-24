@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="41.458" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="40.161" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="skipMunitTests" value="true"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,5 +63,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="35.541"/>
+  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="34.065"/>
 </testsuite>
